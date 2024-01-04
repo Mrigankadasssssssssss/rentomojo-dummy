@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import "./NavBar.css";
 const NavBar = () => {
+  //code
   return (
     <div className="Navbar">
       <div className="Navbar-logo">
