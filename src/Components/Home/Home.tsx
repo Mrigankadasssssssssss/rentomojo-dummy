@@ -1,11 +1,17 @@
 'use client'
 import React from 'react'
-import Hero from '../Hero/Hero'
+import Banner from '../Hero/Banner'
+import ProductType from '../ProductType/ProductType'
+import WhyUs from '../WhyUs/WhyUs'
+import CustomerReview from '../CustomerReview/CustomerReview'
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <Banner/>
+      <ProductType/>
+      <WhyUs/>
+      <CustomerReview/>
     </div>
   )
 }

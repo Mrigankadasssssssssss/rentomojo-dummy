@@ -1,0 +1,6 @@
+/* Custom styles for the banner images */
+.banner-image {
+    height: 400px; /* Set your desired height */
+    width: 100% ;   /* Set your desired width (use 100% for full width) */
+    object-fit: cover; /* Adjust objectFit property based on your preference */
+  }

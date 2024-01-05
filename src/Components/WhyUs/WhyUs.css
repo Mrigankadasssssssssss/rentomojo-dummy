@@ -1,0 +1,53 @@
+.about
+{
+    padding: 40px 50px;
+    width: 100%;
+    background: rgb(199, 214, 221);
+}
+
+.about .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .container .box
+{
+    padding: 10px 20px;
+    display: flex;
+    background: #ecf2f7;
+    width: 270px;
+    height:auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about .container .box .icon
+{
+    color: #e44c8c;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.about .container .box .detail
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about .container .box .detail h3
+{
+    color: #010f1c;
+    font-weight:900 ;
+}
+
+.about .container .box .detail p
+{
+    color: #9a9a9a;
+}
+
+.about .container .box :hover.icon
+{
+    transform: scale(1.5);
+}
