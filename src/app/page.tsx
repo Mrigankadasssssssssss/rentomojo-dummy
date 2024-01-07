@@ -4,6 +4,7 @@ import NavBar from '@/Components/NavBar/NavBar'
 import HomePage from '@/Pages/HomePage'
 import React from 'react'
 
+
 const page = () => {
   return (
     <div>
